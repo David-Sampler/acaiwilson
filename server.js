@@ -63,7 +63,7 @@ app.post("/enviar",async (req,res)=>{
   
   var mailOptions = {
     from: `Meu nome é ${nome}<${email}>`,
-    to: 'davidengenheiro2021@gmail.com',
+    to: 'tbwilson@ig.com.br',
     subject: 'Email do site Café de Açai',
     text: `${assunto} + ${contato}`,
     html:`   <div style="width: 100%; height: 400px;  ">
